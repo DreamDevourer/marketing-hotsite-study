@@ -1,0 +1,209 @@
+/* Font poppins */
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Semantic */
+header {
+    margin: 30px 0 30px 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 3.2em;
+    font-weight: bold;
+    line-height: 1.1;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+body {
+    background-color: #20364b;
+    color: #fff;
+}
+
+ul, li {
+    list-style: none;
+    color: #fff;
+}
+
+a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.fieldArea input[type="text"], .fieldArea input[type="email"], .fieldArea select, .fieldArea textarea {
+    padding: 0.2em;
+    display: block;
+    background-color: #fff;
+    border-radius: 5rem;
+    border: none;
+    color: #000;
+    padding: .5rem;
+    width: 350px;
+    max-width: 350px;
+    margin-bottom: 30px;
+}
+
+input[type=submit] {
+    font-size: 1em;
+    background: #fdc11f;
+    border: 0;
+    border-radius: 5rem;
+    margin: 1rem 1rem 1rem 0;
+    color: #20364b;
+    padding: 0.3rem 2.2rem;
+    background-image: url('../img/TriangleSubmit.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 98px;
+    background-size: .35rem;
+}
+
+/* Classes */
+
+.hero { 
+    margin-top: 130px;
+}
+
+.containerStandard {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.menu, .menu ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu ul li {
+    margin-right: 20px;
+}
+
+.searchButton img, .logo img{
+    max-width: 40%;
+}
+
+.hero{
+    display: flex;
+}
+
+.largerH1 {
+    font-size: 4.2em;
+    font-weight: bold;
+}
+
+.subText {
+    font-weight: 500;
+}
+
+.ImageArea img {
+    max-width: 720px;
+}
+
+.iconsBack {
+    position: absolute;
+    z-index: -1;
+    top: 320px;
+}
+
+.yellowText { 
+    color: #fdc11f;
+}
+
+/* Hero Grid Layout */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "TextArea ImageArea";
+}
+
+.TextArea { grid-area: TextArea; }
+
+.ImageArea { grid-area: ImageArea; }
+
+/* Mobile Responsive */
+@media (max-width: 767px){
+
+    .containerStandard {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    text-align: center;
+    margin: auto;
+}
+
+.ImageArea img {
+    max-width: 325px;
+}
+
+.iconsBack {
+    top: 177px;
+}
+
+.TextArea {
+    margin: auto;
+    width: 100%;
+    margin-left: 20px;
+}
+
+h1, .largerH1 {
+    font-size: 2.3em;
+    font-weight: bold;
+    line-height: 1.1;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-position-x: 210px;
+
+}
+
+header {
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchButton {
+    display: none;
+}
+
+}
