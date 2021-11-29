@@ -8,6 +8,8 @@
   <a href="./LICENSE">License</a> | <a href="https://condescending-heisenberg-4f8cd6.netlify.app/">Preview Page</a>
 </p>
 
+<img src="./Sample.png" alt="Marketing Hotsite study working">
+
 ## ✍️ Hero Design Language License
 
 The first section of the homepage including the header is based directly on “image: Freepik.com”. This cover has been designed using resources from Freepik.com. All other parts of this webpage is designed by me based on the hero design language. Here is the asset link: https://www.freepik.com/free-psd/banner-template-design-with-digital-marketing_13810229.htm
