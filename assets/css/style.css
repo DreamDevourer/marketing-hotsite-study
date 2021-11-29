@@ -1,3 +1,4 @@
 /* Global CSS imports based on NKPS https://github.com/DreamDevourer/NKPS-Web-Project-Structure */
+@import "./base.css";
 @import "./components.css";
 @import "./trumps.css";
